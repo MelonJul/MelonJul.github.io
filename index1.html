@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h> tag -->
+    <h1>Hello World</h1>
+    <h1>Heading level 1</h1>  
+    <h2>Heading level 1</h2>
+    <h3>Heading level 1</h3>
+    <h4>Heading level 1</h4>
+    <h5>Heading level 1</h5>
+    <h6>Heading level 1</h6>
+    <h7>Heading level 7</h7>
+    <!-- <p> tag -->
+    <p><h1>Here is my address: </h1></p>
+    <p>
+        123 Nguyen Van Linh streat<br>
+        Tan Hung ward<br>
+        District 7<br>
+        Saigon
+    </p>
+
+    <p>First rule: The first rule of Fight Club is: You do not talk about Fight Club</p>
+    <hr> <!-- <hr> tag ( Making a line )-->
+    <p>Second rule: The second rult of fight Club is : Always bring cupcakes</p>
+
+    <!-- <ul> tag (unordered List element)-->
+
+        <p>My coding rountine: </p>
+        <ul>
+            <li>Wake up</li>
+            <li>Coffee</li>
+            <li>Code</li>
+            <li>Google error messages
+                <ul>
+                    <li>Find solution on stack over flow</li>
+                    <li>Read through 200+ comments</li>
+                    <li>Realize none of them apply to you issue</li>
+                </ul>
+            </li>
+            <li>Cry</li>
+            <li>Repeat</li>
+        </ul>
+
+        <!-- <ol> tag <Ordered LIst element-->
+        
+            <p>My coding rountine: </p>
+        <ol>
+            <li>Wake up</li>
+            <li>Coffee</li>
+            <li>Code</li>
+            <li>Google error messages
+                <ol>
+                    <li>Find solution on stack over flow</li>
+                    <li>Read through 200+ comments</li>
+                    <li>Realize none of them apply to you issue</li>
+                </ol>
+            </li>
+            <li>Cry</li>
+            <li>Repeat</li>
+        </ol>
+
+        <!-- <a> tag <Anchor "hyperlink" element-->
+            <!--LInking to another local HTML file-->
+            <p>You can reach Tom at:</p>
+            <ul>
+                <li><a href="LIVE-CODE(1)/tom.html">Open Tom Website</a></li>
+                <li><a href="https://www.rmit.edu.vn" target="_blank">SSET Website</a></li>
+                <li><a href="mailto:tom.huynh@rmit.edu.vn">Email</a></li>
+                <li><a href="tel:+842837761300">Phone</a></li>
+            </ul>
+
+            <!--img tag (Imge Embed element)-->
+            <h1>My favourit cat</h1>
+            <img src="https://images2.imgbox.com/21/c4/7tn5e8lO_o.jpg"
+            alt="a famous Vietnamese cat image on Tiktok" width = 200>
+
+            <!--button element-->
+            <br>
+            <button type = "button">
+                Add to favorite
+            </button>
+
+            <br>
+            <button type = "button" Autofocus>
+                Autofocus
+            </button>
+            <br>
+            <button type="button" onclick = "alert('Hello World')">Click ME!</button>
+            <br>
+            <!--input element-->
+            <!--label element-->
+            <!--"for" attribute should be equal to the "id" attribute of the input element to bind them together-->
+            <label for = "fname">First name:</label>
+            <input type = "text" id = "fname" name = "fname">
+            <hr>
+            <!--select element-->
+            <label for = "cars">Choose a car</label>
+            <select id = "cars" name = "cars" size = "5" multiple>
+                <option value = "Volvo" Selected>Volvo</option>
+                <option value = "saab">Saab</option>
+                <option value = "fiat">Fiat</option>
+                <option value = "audi">Audi</option>
+            </select>
+            <br>
+            <!--textarea element-->
+            <textarea name = "message" row = "10" cols = "30">
+                The cat was playing in the garden
+            </textarea>
+            <br>
+            <!--fieldset and legend element-->
+            <form action = "C:\Users\hanjo\OneDrive\바탕 화면\Web Programming\Web Programming sites.html">
+                <fieldset>
+                    <legend>Personalia: </legend>
+                    <label for = "fname">First name: </label><br>
+                    <input type = "text" id = "fname" value = "John"><br>
+                    <label for = "lname">Last name: </label><br>
+                    <input type = "text" id = "lname" name = "lname" value = "Doe"><br><br>
+                    <input type = "submit" value = "Submit">
+                </fieldset>
+            </form>
+
+            <!--datalist element-->
+            <form action = "">
+                <input list = "browers">
+                <datalist id = "browers">
+                    <option value = "Volvo" Selected>Volvo</option>
+                    <option value = "saab">
+                    <option value = "fiat">
+                    <option value = "audi">
+                </datalist>
+            </form>
+            <br>
+
+            <!--output element-->
+            
+            <form action="C:\Users\hanjo\OneDrive\바탕 화면\Web Programming\Week 1\LIVE-CODE\Welcome!.html" method="get" id="form2">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname">
+                </form>
+                
+                <button type="submit" form="form2" value="Submit">Submit</button>
+
+</body>
+</html>
